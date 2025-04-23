@@ -15,8 +15,8 @@ const Page = () => {
     const form = useRef();
     const handleSendEmail =()=>{
         emailjs
-      .sendForm('service_7nhrxaa', 'template_bczz6d1', form.current, {
-        publicKey: 'qJUA8oq9BoDPnbB9Z',
+      .sendForm('service_9j0ys8u', 'template_i1giz6m', form.current, {
+        publicKey: '5gvKrdymw-os2Bj1W',
       })
       .then(
         () => {
@@ -57,7 +57,7 @@ const Page = () => {
 
                     <div  className="flex gap-3 items-center">
                         <MdPhone  size={23} className=""/>
-                        <p><span>Phone:</span> (+237) 670 167 299</p>
+                        <p><span>Phone:</span> (+237) 676 746 677</p>
                     </div>
                 </div>
             </div>
@@ -67,12 +67,12 @@ const Page = () => {
                 <div className="grid grid-cols-2 gap-4">
                     <div className="flex flex-col shadow-md py-2 rounded-md border-1 border-gray-300">
                         <label className="pl-4 py-2 text-sm">First Name</label>
-                        <input name="firstName" className="pl-4 outline-none text-gray-700 rounded-md" type='text' placeholder='Anna' />
+                        <input name="firstName" className="pl-4 outline-none text-gray-700 rounded-md" type='text' placeholder='Kuete' />
                     </div>
 
                     <div className="flex flex-col shadow-md py-2 rounded-md border-1 border-gray-300 ">
                         <label className="pl-4 py-2 text-sm">Last Name</label>
-                        <input name="lastName" className="pl-4 outline-none text-gray-700" type='text' placeholder='Eyong' />
+                        <input name="lastName" className="pl-4 outline-none text-gray-700" type='text' placeholder='Junior' />
                     </div>
 
                     <div className="flex flex-col shadow-md py-2 rounded-md border-1 border-gray-300">
@@ -82,7 +82,7 @@ const Page = () => {
 
                     <div className="flex flex-col shadow-md py-2 rounded-md border-1 border-gray-300">
                         <label className="pl-4 py-2 text-sm">Phone</label>
-                        <input name="phone" className="pl-4 outline-none text-gray-700" type='text' placeholder='+237 670 167 299' />
+                        <input name="phone" className="pl-4 outline-none text-gray-700" type='text' placeholder='+237 676 746 677' />
                     </div>
 
                 </div>
